@@ -4,3 +4,6 @@
 .vscode-server
 .sudo_as_admin_successful
 .wget-hsts
+ros2_ws/log/*
+ros2_ws/build/*
+ros2_ws/install/*
