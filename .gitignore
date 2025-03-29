@@ -1,0 +1,6 @@
+.cache
+.ssh
+.gnupg
+.vscode-server
+.sudo_as_admin_successful
+.wget-hsts
