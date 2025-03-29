@@ -3,7 +3,7 @@ version: '3'
 name: spot-sim
 
 services:
-  umarv-ros2:
+  spot-sim:
     container_name: spot-sim
     image: ros-humble-desktop-full
     build: ../

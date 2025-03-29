@@ -1,16 +1,16 @@
 version: '3'
 
-name: umarv-ros2
+name: spot-sim
 
 services:
-  umarv-ros2:
-    container_name: umarv-ros2
+  spot-sim:
+    container_name: spot
     image: ros-humble-desktop-full
     build: ../
-    hostname: umarv-ros2
+    hostname: spot-sim
     environment:
       DISPLAY: ${IP}:0
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ../ws:/home/umarv/ws
+      - ../../../.:/home/hack/
     tty: true
