@@ -18,7 +18,7 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /mnt/wslg:/mnt/wslg
       - /usr/lib/wsl:/usr/lib/wsl
-      - ../ws:/home/hack/ws
+      - ../../../.:/home/hack/
     devices:
       - /dev/dxg:/dev/dxg
       # - /dev/ttyUSB0:/dev/ttyUSB0
