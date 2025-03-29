@@ -1,0 +1,16 @@
+version: '3'
+
+name: umarv-ros2
+
+services:
+  umarv-ros2:
+    container_name: umarv-ros2
+    image: ros-humble-desktop-full
+    build: ../
+    hostname: umarv-ros2
+    environment:
+      DISPLAY: ${IP}:0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ../ws:/home/umarv/ws
+    tty: true
