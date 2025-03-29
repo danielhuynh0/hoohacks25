@@ -1,0 +1,19 @@
+2025-03-29 17:15:08.032 [info] 
+
+
+
+
+2025-03-29 17:15:08.053 [info] Extension host agent started.
+2025-03-29 17:15:08.111 [debug] No extensions are marked as removed.
+2025-03-29 17:15:08.113 [info] Started initializing default profile extensions in extensions installation folder. file:///home/hack/.vscode-server/extensions
+2025-03-29 17:15:08.118 [debug] ComputeTargetPlatform: linux-x64
+2025-03-29 17:15:08.127 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/hack/.vscode-server/extensions
+2025-03-29 17:15:08.265 [info] [127.0.0.1][2a90624c][ManagementConnection] New connection established.
+2025-03-29 17:15:08.283 [info] Log level changed to info
+2025-03-29 17:15:08.479 [info] [127.0.0.1][3d29d2a0][ExtensionHostConnection] New connection established.
+2025-03-29 17:15:08.506 [info] [127.0.0.1][3d29d2a0][ExtensionHostConnection] <443> Launched Extension Host Process.
+2025-03-29 17:15:19.185 [info] [127.0.0.1][2a90624c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-29 17:15:19.247 [info] [127.0.0.1][3d29d2a0][ExtensionHostConnection] <443> Extension Host Process exited with code: 0, signal: null.
+2025-03-29 17:15:22.293 [info] [127.0.0.1][276b5e36][ManagementConnection] New connection established.
+2025-03-29 17:15:22.562 [info] [127.0.0.1][64452441][ExtensionHostConnection] New connection established.
+2025-03-29 17:15:22.565 [info] [127.0.0.1][64452441][ExtensionHostConnection] <937> Launched Extension Host Process.

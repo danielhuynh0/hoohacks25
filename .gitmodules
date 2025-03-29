@@ -1,0 +1,6 @@
+[submodule "environment/ros2/windows/src/spot_ros2"]
+	path = environment/ros2/windows/src/spot_ros2
+	url = https://github.com/bdaiinstitute/spot_ros2.git
+[submodule "src/spot_ros2"]
+	path = src/spot_ros2
+	url = https://github.com/bdaiinstitute/spot_ros2.git
