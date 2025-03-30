@@ -15,6 +15,13 @@ docker compose up -d
 # To attach to the container call this in every terminal you want to open:
 docker exec -it spot-sim bash
 
+cd ros2_ws
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+sudo apt install -y python3-rosdep
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+
 # To close the container:
 docker compose down;
 
