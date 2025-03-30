@@ -9,3 +9,7 @@
 	path = ros2_ws/src/champ_teleop
 	url = https://github.com/chvmp/champ_teleop.git
 	branch = ros2
+[submodule "ros2_ws/src/robots"]
+	path = ros2_ws/src/robots
+	url = https://github.com/chvmp/robots.git
+	branch = ros2
