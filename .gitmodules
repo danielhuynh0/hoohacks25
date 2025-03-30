@@ -1,6 +1,6 @@
 [submodule "ros2_ws/src/champ"]
 	path = ros2_ws/src/champ
-	url = https://github.com/chvmp/champ.git
+	url = https://github.com/danielhuynh0/champ.git
 	branch = ros2
 [submodule "ros2_ws/src/spot_ros2"]
 	path = ros2_ws/src/spot_ros2

@@ -2,4 +2,4 @@
 	email = danielhuynh523@gmail.com
 	name = Daniel Huynh
 [credential]
-	helper = "!f() { /home/hack/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node /tmp/vscode-remote-containers-9a1eb241-36d8-4fd6-8454-d4c9a830b041.js git-credential-helper $*; }; f"
+	helper = "!f() { /home/hack/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node /tmp/vscode-remote-containers-2867b5d6-04a0-4e0e-bd1d-0e1cb3def4d5.js git-credential-helper $*; }; f"
