@@ -26,3 +26,15 @@ The container should look this:
 # ROS 2:
 hack@spot-sim:~$
 ```
+
+
+
+## Launch
+
+'''sh
+ros2 launch champ_config slam.launch.py rviz:=true sim:=false
+ros2 launch champ_config gazebo.launch.py
+ros2 launch champ_config navigate.launch.py sim:=true
+ros2 run weed_detector weed_detector
+'''sh
+
