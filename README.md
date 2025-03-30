@@ -20,6 +20,7 @@ source /opt/ros/humble/setup.bash
 source install/setup.bash
 sudo apt install -y python3-rosdep
 rosdep update
+sudo apt update
 rosdep install --from-paths src --ignore-src -r -y
 
 # To close the container:
