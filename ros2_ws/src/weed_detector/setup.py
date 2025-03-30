@@ -18,7 +18,9 @@ setup(
     maintainer_email='danielhuynh523@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    extras_require={
+        'test': ['pytest'],
+    },
     entry_points={
         'console_scripts': [
             'weed_detector = weed_detector.weed_detector:main'
