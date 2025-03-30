@@ -1,0 +1,34 @@
+version: '3'
+
+name: spot-sim
+
+services:
+  spot-sim:
+    container_name: spot-sim
+    image: ros-humble-desktop-full
+    build: ../
+    hostname: spot-sim
+    environment:
+      DISPLAY: ${DISPLAY}
+      WAYLAND_DISPLAY: ${WAYLAND_DISPLAY}
+      XDG_RUNTIME_DIR: ${XDG_RUNTIME_DIR}
+      PULSE_SERVER: ${PULSE_SERVER}
+      LIBGL_ALWAYS_SOFTWARE: 1 # uncomment this line if you're having trouble running gazebo
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /mnt/wslg:/mnt/wslg
+      - /usr/lib/wsl:/usr/lib/wsl
+      - ../../../.:/home/hack/
+    devices:
+      - /dev/dxg:/dev/dxg
+      # - /dev/ttyUSB0:/dev/ttyUSB0
+      # - /dev/dri/card0:/dev/dri/card0
+      # - /dev/dri/renderD128:/dev/dri/renderD128
+    tty: true
+      #deploy:
+      #resources:
+      # reservations:
+      #   devices:
+      #     - driver: nvidia
+      #       count: all
+      #       capabilities: [gpu]

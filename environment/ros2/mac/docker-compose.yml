@@ -1,0 +1,16 @@
+version: '3'
+
+name: spot-sim
+
+services:
+  spot-sim:
+    container_name: spot
+    image: ros-humble-desktop-full
+    build: ../
+    hostname: spot-sim
+    environment:
+      DISPLAY: ${IP}:0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ../../../.:/home/hack/
+    tty: true

@@ -1,0 +1,21 @@
+[submodule "ros2_ws/src/champ"]
+	path = ros2_ws/src/champ
+	url = https://github.com/danielhuynh0/champ.git
+	branch = ros2
+[submodule "ros2_ws/src/spot_ros2"]
+	path = ros2_ws/src/spot_ros2
+	url = https://github.com/bdaiinstitute/spot_ros2.git
+[submodule "ros2_ws/src/champ_teleop"]
+	path = ros2_ws/src/champ_teleop
+	url = https://github.com/chvmp/champ_teleop.git
+	branch = ros2
+[submodule "ros2_ws/src/robots"]
+	path = ros2_ws/src/robots
+	url = https://github.com/chvmp/robots.git
+	branch = ros2
+[submodule "ros2_ws/src/virtual_maize_field"]
+	path = ros2_ws/src/virtual_maize_field
+	url = https://github.com/FieldRobotEvent/virtual_maize_field.git
+[submodule "ros2_ws/src/rosbag2video"]
+	path = ros2_ws/src/rosbag2video
+	url = https://github.com/mlaiacker/rosbag2video.git
